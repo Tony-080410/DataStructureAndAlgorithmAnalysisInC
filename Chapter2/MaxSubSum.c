@@ -1,9 +1,9 @@
 #include <stdio.h>
-double MaxSubSum(const double[], int);
+double MaxSubSum4(const double[], int);
 
 int main(void) {
     double a[4] = {1, 3, -2, 4};
-    double max = MaxSubSum(a, 4);
+    double max = MaxSubSum4(a, 4);
     printf("%f\n", max);
     return 0;
 }
